@@ -12,7 +12,7 @@
    | links pages via index.php, set this option manually to TRUE
    |
 */
-$config['forceseo'] = FALSE;
+$config['forceseo'] = TRUE;
 
 /*
 |--------------------------------------------------------------------------

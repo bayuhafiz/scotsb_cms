@@ -2,9 +2,7 @@
 RewriteEngine on
 RewriteCond $1 !^(index\.php|images|iu-resources|iu-application|install|iu-assets|asset\.php|robots\.txt)
 RewriteRule ^(.*)$ index.php/$1 [L]
-RewriteCond %{REQUEST_FILENAME} !-f
-RewriteCond %{REQUEST_FILENAME} !-d
-RewriteRule ^(.*)\.html$ /$1 [L,R=301] 
+
 	<IfModule mod_env.c>
 	SetEnv IU_SEO_URLS 1
 	</IfModule>
